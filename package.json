@@ -1,0 +1,35 @@
+{
+  "name": "hockey-pool-generator-api",
+  "version": "1.0.0",
+  "description": "Hockey pool generator API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmicho/hockey-pool-generator-api.git"
+  },
+  "keywords": [
+    "hockey",
+    "pool",
+    "generator"
+  ],
+  "author": "Paxton Eicher & Lauriane Michaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmicho/hockey-pool-generator-api/issues"
+  },
+  "homepage": "https://github.com/lmicho/hockey-pool-generator-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "btoa": "^1.2.1",
+    "config": "^3.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}

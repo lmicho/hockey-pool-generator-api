@@ -1,0 +1,8 @@
+{
+    "siteUrl": "http://localhost:4200/#",
+    "mySportsFeeds": {
+        "url": "https://api.mysportsfeeds.com/v2.0/pull/nhl/",
+        "key": "2919aa75-403c-4927-9453-d7e24e",
+        "password" : ";A8db8%Tx/~HSxG+"
+    }
+}
