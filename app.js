@@ -9,14 +9,8 @@ app.use(cors());
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ 'extended': 'false' }));
-app.use(function (req, res, next) {
-  if (req.url === '/') {
-    res.redirect('/api');
-    return;
-  }
-  next();
-});
-app.use('/api', api);
+
+app.use('/', api);
 
 // // catch 404 and forward to error handler
 // app.use(function (req, res, next) {
