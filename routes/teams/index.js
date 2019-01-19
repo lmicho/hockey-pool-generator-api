@@ -29,6 +29,20 @@ router.route('/division-team-standings')
         });
     })
 
+router.route('/playoff-team-standings')
+    .get(function (req, res) {
+        request.get({ url: url + "/playoff_team_standings.json", headers: headers }, function (e, r, body) {
+            res.send(body)
+        });
+    })
+
+router.route('/team-gamelogs')
+    .get(function (req, res) {
+        request.get({ url: url + "/team_gamelogs.json", headers: headers }, function (e, r, body) {
+            res.send(body)
+        });
+    })
+
 module.exports = router;
 
 
