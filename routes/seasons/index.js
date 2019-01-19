@@ -25,7 +25,7 @@ router.route('/latest-updates')
             res.send(body)
         });
     })
-Î
+    
 module.exports = router;
 
 
