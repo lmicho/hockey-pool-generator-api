@@ -2,7 +2,7 @@
 # Hockey Pool Generator - API
 
 
-Web application to help poolers to build the perfect pool according to selected parameters such as salary cap and number of players for each position. It generates a complete and balanced team selection based on players statistics and salary. The application also provides numerous useful information like players profiles, games score and teams statistics.
+Node backend API to provide services to the Hockey Pool Generator web application. Used as a proxy between the [frontend](https://github.com/lmicho/hockey-pool-generator-frontend) and [My Sports Feed API](https://www.mysportsfeeds.com/).
 
 ---
 
